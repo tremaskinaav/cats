@@ -10,7 +10,7 @@ function checkPassword() {
 
     
     
-    else if (!hasstroch) {
+    if (!hasstroch) {
         result.textContent = "добавьте буквы разных регистров";
     }
     else if (!hasnumber) {
