@@ -9,9 +9,7 @@ function checkPassword() {
     let isshort = password.length < 8;
 
     
-    if (!haszagl) {
-        result.textContent = "добавьте буквы разных регистров";
-    }
+    
     else if (!hasstroch) {
         result.textContent = "добавьте буквы разных регистров";
     }
